@@ -1,0 +1,35 @@
+{
+  "name": "aurelia-cli",
+  "version": "0.22.0",
+  "description": "The command line tooling for Aurelia.",
+  "keywords": [
+    "aurelia",
+    "cli",
+    "bundle",
+    "scaffold"
+  ],
+  "homepage": "http://aurelia.io",
+  "bugs": {
+    "url": "https://github.com/aurelia/cli/issues"
+  },
+  "bin": {
+    "aurelia": "bin/aurelia-cli.js",
+    "au": "bin/aurelia-cli.js"
+  },
+  "license": "MIT",
+  "author": "Rob Eisenberg <rob@bluespire.com> (http://robeisenberg.com/)",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aurelia/cli"
+  },
+  "dependencies": {
+    "aurelia-dependency-injection": "^1.0.0",
+    "aurelia-polyfills": "^1.0.0",
+    "npm": "^3.10.8",
+    "requirejs": "^2.3.2"
+  },
+  "devDependencies": {
+    "aurelia-tools": "^0.2.2"
+  }
+}
